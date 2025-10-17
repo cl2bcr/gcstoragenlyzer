@@ -145,7 +145,7 @@ gcstoragenlyzer scan old --bucket my-bucket --day 30
 gcstoragenlyzer scan expose --all --output-format html --output-file report.html
 
 # JSON output
-gcstoragenlyzer scan sensitive --bucket my-bucket --json-output
+gcstoragenlyzer scan sensitive --bucket my-bucket --output-format json --output-file report.json
 
 # Scan specific file types
 gcstoragenlyzer scan sensitive --bucket my-bucket --file-type .env,.txt,.log
